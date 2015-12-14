@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		845C71A91C1E71F5009F99E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C71A81C1E71F5009F99E4 /* main.m */; };
 		845C71AC1C1E71F5009F99E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C71AB1C1E71F5009F99E4 /* AppDelegate.m */; };
-		845C71AF1C1E71F5009F99E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C71AE1C1E71F5009F99E4 /* ViewController.m */; };
 		845C71B21C1E71F6009F99E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845C71B01C1E71F6009F99E4 /* Main.storyboard */; };
 		845C71B41C1E71F6009F99E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845C71B31C1E71F6009F99E4 /* Assets.xcassets */; };
 		845C71B71C1E71F6009F99E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845C71B51C1E71F6009F99E4 /* LaunchScreen.storyboard */; };
+		845C71C01C1E7F13009F99E4 /* DDCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C71BF1C1E7F13009F99E4 /* DDCell.m */; };
+		845C71C61C1E83AB009F99E4 /* DDCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C71C51C1E83AB009F99E4 /* DDCollectionViewController.m */; };
+		845C71C91C1E86A4009F99E4 /* DDDetailTransiton.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C71C81C1E86A4009F99E4 /* DDDetailTransiton.m */; };
+		845C71CC1C1E8A5B009F99E4 /* DDDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C71CB1C1E8A5B009F99E4 /* DDDetailController.m */; };
+		845C71CF1C1ECE9B009F99E4 /* DDDetailMissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C71CE1C1ECE9B009F99E4 /* DDDetailMissTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		845C71A81C1E71F5009F99E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		845C71AA1C1E71F5009F99E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		845C71AB1C1E71F5009F99E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		845C71AD1C1E71F5009F99E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		845C71AE1C1E71F5009F99E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		845C71B11C1E71F6009F99E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845C71B31C1E71F6009F99E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845C71B61C1E71F6009F99E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845C71B81C1E71F6009F99E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845C71BE1C1E7F13009F99E4 /* DDCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCell.h; sourceTree = "<group>"; };
+		845C71BF1C1E7F13009F99E4 /* DDCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCell.m; sourceTree = "<group>"; };
+		845C71C41C1E83AB009F99E4 /* DDCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCollectionViewController.h; sourceTree = "<group>"; };
+		845C71C51C1E83AB009F99E4 /* DDCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCollectionViewController.m; sourceTree = "<group>"; };
+		845C71C71C1E86A4009F99E4 /* DDDetailTransiton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDetailTransiton.h; sourceTree = "<group>"; };
+		845C71C81C1E86A4009F99E4 /* DDDetailTransiton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDetailTransiton.m; sourceTree = "<group>"; };
+		845C71CA1C1E8A5B009F99E4 /* DDDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDetailController.h; sourceTree = "<group>"; };
+		845C71CB1C1E8A5B009F99E4 /* DDDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDetailController.m; sourceTree = "<group>"; };
+		845C71CD1C1ECE9B009F99E4 /* DDDetailMissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDetailMissTransition.h; sourceTree = "<group>"; };
+		845C71CE1C1ECE9B009F99E4 /* DDDetailMissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDetailMissTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +72,17 @@
 			children = (
 				845C71AA1C1E71F5009F99E4 /* AppDelegate.h */,
 				845C71AB1C1E71F5009F99E4 /* AppDelegate.m */,
-				845C71AD1C1E71F5009F99E4 /* ViewController.h */,
-				845C71AE1C1E71F5009F99E4 /* ViewController.m */,
+				845C71C41C1E83AB009F99E4 /* DDCollectionViewController.h */,
+				845C71C51C1E83AB009F99E4 /* DDCollectionViewController.m */,
+				845C71CA1C1E8A5B009F99E4 /* DDDetailController.h */,
+				845C71CB1C1E8A5B009F99E4 /* DDDetailController.m */,
 				845C71B01C1E71F6009F99E4 /* Main.storyboard */,
+				845C71BE1C1E7F13009F99E4 /* DDCell.h */,
+				845C71BF1C1E7F13009F99E4 /* DDCell.m */,
+				845C71C71C1E86A4009F99E4 /* DDDetailTransiton.h */,
+				845C71C81C1E86A4009F99E4 /* DDDetailTransiton.m */,
+				845C71CD1C1ECE9B009F99E4 /* DDDetailMissTransition.h */,
+				845C71CE1C1ECE9B009F99E4 /* DDDetailMissTransition.m */,
 				845C71B31C1E71F6009F99E4 /* Assets.xcassets */,
 				845C71B51C1E71F6009F99E4 /* LaunchScreen.storyboard */,
 				845C71B81C1E71F6009F99E4 /* Info.plist */,
@@ -110,6 +130,7 @@
 				TargetAttributes = {
 					845C71A31C1E71F5009F99E4 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QPDNC8PW8J;
 					};
 				};
 			};
@@ -149,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845C71AF1C1E71F5009F99E4 /* ViewController.m in Sources */,
+				845C71CC1C1E8A5B009F99E4 /* DDDetailController.m in Sources */,
 				845C71AC1C1E71F5009F99E4 /* AppDelegate.m in Sources */,
 				845C71A91C1E71F5009F99E4 /* main.m in Sources */,
+				845C71C61C1E83AB009F99E4 /* DDCollectionViewController.m in Sources */,
+				845C71C91C1E86A4009F99E4 /* DDDetailTransiton.m in Sources */,
+				845C71CF1C1ECE9B009F99E4 /* DDDetailMissTransition.m in Sources */,
+				845C71C01C1E7F13009F99E4 /* DDCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bo Feng (T5V8VLFQ56)";
 				INFOPLIST_FILE = UIViewControllerDetailTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.taitanxiami.UIViewControllerDetailTransition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diandainfo.UIViewControllerDetailTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +302,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bo Feng (T5V8VLFQ56)";
 				INFOPLIST_FILE = UIViewControllerDetailTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.taitanxiami.UIViewControllerDetailTransition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diandainfo.UIViewControllerDetailTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +331,7 @@
 				845C71BD1C1E71F6009F99E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "DDCell.h"
+static NSString *const CellIDentify = @"CellIDentify";
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 
@@ -16,12 +19,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+}
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    
+    return 1;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    DDCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CellIDentify forIndexPath:indexPath];
+    
+    return cell;
+    
+    
 }
+
 
 @end
